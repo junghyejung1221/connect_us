@@ -1,0 +1,13 @@
+.search_card {
+  border: none;
+  width: 18rem;
+  display: inline-block;
+  margin: 0 30px 100px 20px;
+  box-shadow: rgb(0 0 0 / 4%) 0px 4px 16px 0px;
+  transition: box-shadow 0.25s ease-in 0s, transform 0.25s ease-in 0s;
+  cursor: pointer;
+}
+
+.search_card:hover {
+  transform: translateY(-0.5em);
+}
